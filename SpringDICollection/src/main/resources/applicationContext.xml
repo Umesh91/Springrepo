@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<beans  
+    xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xmlns:p="http://www.springframework.org/schema/p"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans  
+ http://www.springframework.org/schema/beans/spring-beans.xsd">
+ 	<bean id="q" class="com.SpringDICollection.code.Question">
+ 		<constructor-arg value="111"></constructor-arg>
+ 		<constructor-arg value="What is java?"></constructor-arg>
+ 		<constructor-arg>
+ 			<list>
+ 				<value>Java is programming language</value>
+ 				<value>Java is platform</value>
+ 				<value>Java is island </value>
+ 			</list>
+ 		</constructor-arg>
+ 	</bean>
+ 
+ </beans>  
