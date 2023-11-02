@@ -1,0 +1,3 @@
+access http://localhost:8083/Spring5MVCCustomFormValidation-0.0.1-SNAPSHOT/customer/processForm 
+
+to access application
